@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
     origin: [
         //'http://localhost:5173', // Development
-        'https://job-reviews-main.vercel.app/' // Your Vercel URL
+        'https://job-reviews-main.vercel.app' // Your Vercel URL
     ],
     credentials: true
 }));
