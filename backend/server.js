@@ -9,7 +9,7 @@ const app = express();
 
 app.use(cors({
     origin: [
-        'http://localhost:5173', // Development
+        //'http://localhost:5173', // Development
         'https://job-reviews-five.vercel.app' // Your Vercel URL
     ],
     credentials: true
