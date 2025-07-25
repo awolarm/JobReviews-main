@@ -5,7 +5,7 @@ import { useColorModeValue } from '@chakra-ui/color-mode';
 import { FormControl, FormLabel} from '@chakra-ui/form-control';
 
 const API_CONFIG = {
-    BASE_URL: 'https://jobreviews-production.up.railway.app', 
+    BASE_URL: 'https://jobreviews-main-production.up.railway.app', 
     REVIEW_ENDPOINT: '/api/auth/review'
 }
 
